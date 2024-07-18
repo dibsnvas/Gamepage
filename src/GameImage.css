@@ -1,0 +1,11 @@
+.game-image {
+  width: 200px; /* Adjust width as needed */
+  height: 200px; /* Adjust height as needed */
+  object-fit: cover;
+}
+
+@media (min-width: 1024px) { /* Target larger screens */
+  .last-row {
+    justify-self: center; /* Center the items in the last row */
+  }
+}

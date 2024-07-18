@@ -17,14 +17,14 @@ const GamePage: React.FC = () => {
   const games = Array.from({ length: 12 }, (_, i) => `Игра ${i + 1}`);
   const gameData = [
     {
-      url: 'https://crowdedgames.itch.io/games-for-kids-animals',
+      url: 'https://drag-and-drop-nine-ivory.vercel.app/',
       image: firstImage,
-      description: 'Образовательная игра для детей с различными животными.'
+      description: 'Игра для изучения и соединения различных цветов для детей'
     },
     {
-      url: 'https://christina-nin4.itch.io/animals-game',
+      url: 'https://guess-the-number-hazel.vercel.app/',
       image: six,
-      description: 'Веселая и интерактивная игра про животных.'
+      description: 'Игра для детей на интуицию.'
     },
     {
       url: 'https://valera102.itch.io/alfavit-kids',

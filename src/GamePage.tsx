@@ -1,7 +1,7 @@
 import React from 'react';
 import './GameImage.css'
 import firstImage from './assets/image.png';
-import thirdImage from './assets/image copy.png';
+import thirdImage from './assets/image copy 14.png';
 import second from './assets/image copy 3.png';
 import fifth from './assets/image copy 4.png';
 import six from './assets/image copy 2.png';
@@ -27,9 +27,9 @@ const GamePage: React.FC = () => {
       description: 'Игра для детей на интуицию.'
     },
     {
-      url: 'https://valera102.itch.io/alfavit-kids',
+      url: 'https://connect-woad.vercel.app/',
       image: thirdImage,
-      description: 'Образовательная игра для детей, чтобы помочь им выучить алфавит.'
+      description: 'Игра развивающая смекалку и логику'
     },
     {
       url: 'https://blindfold-games.itch.io/animals-bee',

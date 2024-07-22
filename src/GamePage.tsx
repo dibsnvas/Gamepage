@@ -1,25 +1,21 @@
 import React from 'react';
 import './GameImage.css'
-import firstImage from './assets/image.png';
+import firstImage from './assets/image copy 19.png';
 import thirdImage from './assets/image copy 14.png';
-import second from './assets/image copy 3.png';
+import second from './assets/image copy 17.png';
 import fifth from './assets/image copy 4.png';
-import six from './assets/image copy 2.png';
-import s1x from './assets/image copy 5.png';
-import seven from './assets/image copy 11.png';
-import eight from './assets/image copy 7.png';
-import nine from './assets/image copy 8.png';
-import ten from './assets/image copy 12.png';
-import eleven from './assets/image copy 10.png';
-import twelve from './assets/image copy 13.png'
+import six from './assets/image copy 16.png';
+import s1x from './assets/image copy 8.png';
+import seven from './assets/image copy 18.png';
+import eight from './assets/image copy 20.png';
 
 const GamePage: React.FC = () => {
-  const games = Array.from({ length: 12 }, (_, i) => `Игра ${i + 1}`);
+  const games = Array.from({ length: 8 }, (_, i) => `Игра ${i + 1}`);
   const gameData = [
     {
-      url: 'https://drag-and-drop-nine-ivory.vercel.app/',
-      image: firstImage,
-      description: 'Игра для изучения и соединения различных цветов для детей'
+      url: 'https://flappy-rouge.vercel.app/',
+      image: eight,
+      description: 'Учи числа и развивай логику.'
     },
     {
       url: 'https://guess-the-number-hazel.vercel.app/',
@@ -32,49 +28,29 @@ const GamePage: React.FC = () => {
       description: 'Игра развивающая смекалку и логику'
     },
     {
-      url: 'https://blindfold-games.itch.io/animals-bee',
+      url: 'https://doodle-psi.vercel.app/',
       image: second,
-      description: 'Интерактивная игра о пчелах и животных.'
+      description: 'Развлекательная игра с прыжками.'
     },
     {
-      url: 'https://fyreload.itch.io/kids-step-up-game',
+      url: 'https://wordle-five-xi.vercel.app/',
       image: fifth,
-      description: 'Игра на шагание для детей.'
+      description: 'Игра для развития интуиции у детей.'
     },
     {
-      url: 'https://black4ox.itch.io/kids-race',
+      url: 'https://num-blush.vercel.app/',
       image: s1x,
-      description: 'Гоночная игра, разработанная для детей.'
+      description: 'Угадай число и развивай логику.'
     },
     {
-      url: 'https://andrick-mercado.itch.io/kids-4-safe-routes-vr',
+      url: 'https://magic-alpha.vercel.app/',
       image: seven,
-      description: 'ВР игра, обучающая детей безопасным маршрутам.'
+      description: 'Развивай память и логику.'
     },
     {
-      url: 'https://callmeakstark.itch.io/kids-play',
-      image: eight,
-      description: 'Игровая площадка с различными активностями для детей.'
-    },
-    {
-      url: 'https://omael.itch.io/paintem',
-      image: nine,
-      description: 'Игра для рисования, позволяющая детям исследовать свою креативность.'
-    },
-    {
-      url: 'https://endless409.itch.io/tppg',
-      image: ten,
-      description: 'Пазл игра для детей.'
-    },
-    {
-      url: 'https://chocolandtv.itch.io/packmaniac',
-      image: eleven,
-      description: 'Веселая и интерактивная игра в стиле Пакмана для детей.'
-    },
-    {
-      url: 'https://deepnight.itch.io/cats-are-assholes',
-      image: twelve,
-      description: 'Веселая игра с кошками.'
+      url: 'https://drag-and-drop-nine-ivory.vercel.app/',
+      image: firstImage,
+      description: 'Игра для изучения и соединения различных цветов для детей'
     }
   ];
 
